@@ -14,7 +14,6 @@ async function  Header(){
     <header className="fixed top-0 w-full border-b bg-background/80 backdrop-blur-md z-50 support-[backdrop-filter]:bg-background/60 ">
       <nav className="w-full flex justify-between items-center px-4 h-16">
         
-        {/* Logo - Moves to Left Corner */}
         <div className="mr-auto">
           <Link href="/">
             <Image
