@@ -69,7 +69,7 @@ async function  Header(){
             </DropdownMenu>
           </SignedIn>
 
-          {/* Authentication Buttons */}
+          
           <SignedOut>
             <SignInButton>
               <Button variant="outline">Sign In</Button>
