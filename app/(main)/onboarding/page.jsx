@@ -11,8 +11,6 @@ import OnboardingForm from './_componets/onboarding-form';
     if(isOnboarded){
       redirect("/dashboard")
     }
-
-
   return (
     <main>
       <OnboardingForm industries={industries}/>
