@@ -3,11 +3,9 @@ import { industries } from '@/data/industries'
 import { redirect } from 'next/navigation';
 import OnboardingForm from './_componets/onboarding-form';
 
-
  async function OnboardingPage() {
 
     const {isOnboarded} = await getUserOnboardingStatus();
-
     if(isOnboarded){
       redirect("/dashboard")
     }
